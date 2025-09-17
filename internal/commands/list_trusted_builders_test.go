@@ -71,6 +71,8 @@ func testListTrustedBuildersCommand(t *testing.T, when spec.G, it spec.S) {
 				"paketobuildpacks/builder-jammy-base",
 				"paketobuildpacks/builder-jammy-full",
 				"paketobuildpacks/builder-jammy-tiny",
+				"paketobuildpacks/builder-ubi8-base",
+				"paketobuildpacks/ubi-9-builder",
 			)
 
 			listTrustedBuildersCommand := commands.ListTrustedBuilders(
@@ -94,6 +96,8 @@ func testListTrustedBuildersCommand(t *testing.T, when spec.G, it spec.S) {
 				"paketobuildpacks/builder-jammy-base",
 				"paketobuildpacks/builder-jammy-full",
 				"paketobuildpacks/builder-jammy-tiny",
+				"paketobuildpacks/builder-ubi8-base",
+				"paketobuildpacks/ubi-9-builder",
 			)
 		})
 	})

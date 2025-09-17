@@ -74,7 +74,14 @@ var KnownBuilders = []KnownBuilder{
 	{
 		Vendor:             "Paketo Buildpacks",
 		Image:              "paketobuildpacks/builder-ubi8-base",
-		DefaultDescription: "Universal Base Image (RHEL8) with buildpacks to build Node.js or Java runtimes. Support also the new extension feature (aka apply Dockerfile)",
+		DefaultDescription: "Universal Base Image (RHEL8) AMD64+ARM64 with buildpacks to build Node.js or Java runtimes.",
+		Suggested:          true,
+		Trusted:            true,
+	},
+	{
+		Vendor:             "Paketo Buildpacks",
+		Image:              "paketobuildpacks/ubi-9-builder",
+		DefaultDescription: "UBI RHEL9 AMD64+ARM64 base image with buildpacks for Node.js and Java runtimes.",
 		Suggested:          true,
 		Trusted:            true,
 	},

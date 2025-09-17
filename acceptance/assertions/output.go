@@ -250,6 +250,8 @@ var paketoBuilders = []string{
 	"paketobuildpacks/builder-jammy-base",
 	"paketobuildpacks/builder-jammy-full",
 	"paketobuildpacks/builder-jammy-tiny",
+	"paketobuildpacks/builder-ubi8-base",
+	"paketobuildpacks/ubi-9-builder",
 }
 
 func (o OutputAssertionManager) IncludesPaketoBuilders() {
